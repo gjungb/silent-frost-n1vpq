@@ -1,0 +1,60 @@
+{
+  "name": "typescript-gatsby-starter",
+  "private": true,
+  "description": "",
+  "version": "0.1",
+  "author": "Grant Bartlett",
+  "dependencies": {
+    "@babel/core": "7.8.4",
+    "antd": "3.26.8",
+    "case": "1.6.2",
+    "date-fns": "2.9.0",
+    "faker": "4.1.0",
+    "gatsby": "2.19.12",
+    "gatsby-image": "2.2.40",
+    "gatsby-plugin-manifest": "2.2.41",
+    "gatsby-plugin-offline": "3.0.34",
+    "gatsby-plugin-react-helmet": "3.1.22",
+    "gatsby-plugin-sharp": "2.4.5",
+    "gatsby-plugin-typescript": "^2.1.2",
+    "gatsby-source-airtable": "2.0.12",
+    "gatsby-source-filesystem": "2.1.48",
+    "gatsby-transformer-remark": "2.6.50",
+    "gatsby-transformer-sharp": "2.3.14",
+    "graphql": "^14.4.2",
+    "moment": "2.24.0",
+    "prop-types": "^15.7.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-helmet": "5.2.1",
+    "slug": "2.1.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.4.0",
+    "@graphql-codegen/typescript": "^1.4.0",
+    "@graphql-codegen/typescript-operations": "^1.4.0",
+    "@types/faker": "4.1.9",
+    "@types/node": "^12.6.9",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-helmet": "^5.0.8",
+    "autoprefixer": "^9.6.1",
+    "ts-optchain": "^0.1.8",
+    "typescript": "^3.5.3",
+    "node-sass": "^4.12.0"
+  },
+  "keywords": [
+    "gatsby",
+    "typescript"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve"
+  },
+  "browserslist": [
+    ">1%",
+    "last 2 versions"
+  ]
+}
